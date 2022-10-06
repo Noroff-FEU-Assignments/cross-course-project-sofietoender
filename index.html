@@ -8,6 +8,27 @@
     <p>Welcome to my first website.</p>
     <h2>Web Security</h2>
     <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-    <p id="web-security-answer">[Answer here]</p>
+    <p id="web-security-answer"> Lack of good web security can have big consequences and range from loss of private account passwords to loss of credit card details. The most common threats is Cross-Site Scripting (XSS), SQL injection and Cross-Site Request Forgery (CSRF). 
+ 
+      There is various practices that are proven to be efficient against security threats: 
+       
+       
+      1.HTTPS
+      
+      Configure the web server to use HTTPS instead of http. The difference between HTTP and HTTPS is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses. 
+      As a result, HTTPS is far more secure than HTTP and ensures that login credentials, cookies, POST requests data and header information are not easily available to attackers.
+       
+      2.Sanization of data
+      To improve the security of a webpage, you should sanitize all user-originating data before it is displayed in the browser, used in SQL queries, or passed to an operating system or file system call.
+      A well-known third party soulution is the sanitize-html package in NodeJS.
+       
+      3.Secure authorization and authentication
+      Authorization and authentication can be done manually but can be best achieved by using an open-standard authorization protocol or framework such as OneLogin, Okta, etc.
+       
+      4.Continuous Deployment/Continuous Integration (CI/CD)
+      Continuous Deployment/Continuous Integration is an automatic process of integrating and delivering code to production. 
+      Examples of CI/CD  tools are Github Action, Jenkins, Travis CI and Circle CI. 
+      The benefit of using CI/CD is that any change that does not pass the security checks will be rejected and flagged for rework.
+       </p>
   </body>
 </html>
