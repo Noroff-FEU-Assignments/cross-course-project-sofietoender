@@ -8,24 +8,25 @@
     <p>Welcome to my first website.</p>
     <h2>Web Security</h2>
     <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? </p>
-    <p id="web-security-answer"> <h1> Lack of good web security can have big consequences and range from loss of private account passwords to loss of credit card details. The most common threats is Cross-Site Scripting (XSS), SQL injection and Cross-Site Request Forgery (CSRF). 
+    <p id="web-security-answer"> <h2> Lack of good web security can have big consequences and range from loss of private account passwords to loss of credit card details. The most common threats is Cross-Site Scripting (XSS), SQL injection and Cross-Site Request Forgery (CSRF). 
       Lack of good web security can have big consequences and range from loss of private account passwords to loss of credit card details. The most common threats is Cross-Site Scripting (XSS), SQL injection and Cross-Site Request Forgery (CSRF).
-    </h1> 
+      There is various practices that are proven to be efficient against security threats and will be explained below: 
+    </h2> 
 
       
-     <h1>1.HTTPS</h1> 
+     <h2>1.HTTPS</h2> 
     <p> Configure the web server to use HTTPS instead of http. The difference between HTTP and HTTPS is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses. 
         As a result, HTTPS is far more secure than HTTP and ensures that login credentials, cookies, POST requests data and header information are not easily available to attackers.</p>
       
        
-     <h1> 2.Sanization of data</h1> 
+     <h2> 2.Sanization of data</h2> 
       <p>To improve the security of a webpage, you should sanitize all user-originating data before it is displayed in the browser, used in SQL queries, or passed to an operating system or file system call.
         A well-known third party soulution is the sanitize-html package in NodeJS.</p>
        
-      <h1> 3.Secure authorization and authentication</h1>
+      <h2> 3.Secure authorization and authentication</h2>
       <p>Authorization and authentication can be done manually but can be best achieved by using an open-standard authorization protocol or framework such as OneLogin, Okta, etc.</p>
        
-      <h1>4.Continuous Deployment/Continuous Integration (CI/CD)</h1>
+      <h2>4.Continuous Deployment/Continuous Integration (CI/CD)</h2>
       <p>Continuous Deployment/Continuous Integration is an automatic process of integrating and delivering code to production. 
         Examples of CI/CD  tools are Github Action, Jenkins, Travis CI and Circle CI. 
         The benefit of using CI/CD is that any change that does not pass the security checks will be rejected and flagged for rework.</p>
